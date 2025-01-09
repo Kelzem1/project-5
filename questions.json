@@ -1,0 +1,104 @@
+{
+    "questions": [
+        {
+            "question": "¿Quién es el protagonista principal de 'El Imperio Final'?",
+            "options": ["Kelsier", "Vin", "Sazed"],
+            "answer": "Vin"
+        },
+        {
+            "question": "¿Qué metal permite a los Nacidos de la Bruma empujar objetos metálicos?",
+            "options": ["Peltre", "Estaño", "Acero"],
+            "answer": "Acero"
+        },
+        {
+            "question": "¿Cómo se llama el Lord Legislador?",
+            "options": ["Rashek", "Elend", "Demoux"],
+            "answer": "Rashek"
+        },
+        {
+            "question": "¿Qué rol desempeña Sazed en la historia?",
+            "options": ["Terrisano y guardador", "Asesino", "Noble"],
+            "answer": "Terrisano y guardador"
+        },
+        {
+            "question": "¿Qué metal permite a un Alomante mejorar sus sentidos?",
+            "options": ["Zinc", "Estaño", "Latón"],
+            "answer": "Estaño"
+        },
+        {
+            "question": "¿Quién es el principal antagonista en 'El Pozo de la Ascensión'?",
+            "options": ["Straff Venture", "El Lord Legislador", "Marsh"],
+            "answer": "Straff Venture"
+        },
+        {
+            "question": "¿Qué poder otorga el atium?",
+            "options": ["Fuerza extrema", "Prever el futuro inmediato", "Control mental"],
+            "answer": "Prever el futuro inmediato"
+        },
+        {
+            "question": "¿Qué título obtiene Elend Venture en el segundo libro?",
+            "options": ["General", "Rey", "Emperador"],
+            "answer": "Rey"
+        },
+        {
+            "question": "¿Qué criatura es Marsh al final de la trilogía?",
+            "options": ["Inquisidor de Acero", "Kandra", "Koloss"],
+            "answer": "Inquisidor de Acero"
+        },
+        {
+            "question": "¿Cómo se llama la religión de Sazed?",
+            "options": ["El Cantor de la Arena", "El Camino de Terris", "Sin nombre"],
+            "answer": "El Camino de Terris"
+        },
+        {
+            "question": "¿Qué metal usa Vin para volar entre edificios?",
+            "options": ["Hierro", "Acero", "Peltre"],
+            "answer": "Acero"
+        },
+        {
+            "question": "¿Quién es el narrador de los epígrafes en 'El Héroe de las Eras'?",
+            "options": ["Kelsier", "Sazed", "Ruin"],
+            "answer": "Sazed"
+        },
+        {
+            "question": "¿Cuál es el metal más raro en la Alomancia?",
+            "options": ["Atium", "Electrum", "Oro"],
+            "answer": "Atium"
+        },
+        {
+            "question": "¿Qué representa el Pozo de la Ascensión?",
+            "options": ["Una prisión", "Un poder divino", "Un santuario"],
+            "answer": "Un poder divino"
+        },
+        {
+            "question": "¿Quién libera accidentalmente a Ruin?",
+            "options": ["Elend", "Vin", "Kelsier"],
+            "answer": "Vin"
+        },
+        {
+            "question": "¿Qué metal bloquea los poderes de Ruin?",
+            "options": ["Hierro", "Aluminio", "Atium"],
+            "answer": "Aluminio"
+        },
+        {
+            "question": "¿Quién hereda el poder de la Ascensión al final de la trilogía?",
+            "options": ["Sazed", "Elend", "Vin"],
+            "answer": "Sazed"
+        },
+        {
+            "question": "¿Cómo se llama el dios maligno de la trilogía?",
+            "options": ["Ruin", "Preservation", "Harmony"],
+            "answer": "Ruin"
+        },
+        {
+            "question": "¿Qué grupo está formado por Inquisidores de Acero?",
+            "options": ["Cantores", "Steel Ministry", "Kandra"],
+            "answer": "Steel Ministry"
+        },
+        {
+            "question": "¿Qué representa Harmony al final de la trilogía?",
+            "options": ["El equilibrio entre Ruin y Preservation", "Un dios antiguo", "El poder del atium"],
+            "answer": "El equilibrio entre Ruin y Preservation"
+        }
+    ]
+}
