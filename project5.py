@@ -1,6 +1,7 @@
 import random
 import json
 import time
+from termcolor import colored, cprint
 
 def load_question():
     with open('questions.json', 'r') as f:
@@ -20,16 +21,19 @@ def ask_question(question):
     for i, option in enumerate(question["options"]):
         print(str(i+1) + ".", option)
     
-    number = int(input("Select the correct number:"))
+    inp_text = colored("Select the correct number: ", "cyan")
+    number = int(input(inp_text))
     if number < 0 or number > len(question["options"]):
         print("Invalid choice, defaulting to wrong answer")
         return False
     
     correct = question["options"][number -1] == question["answer"]
     return correct
-    
+
+
+#START    
 questions = load_question()
-total_questions = int(input("Enter the number of questions: "))
+total_questions = int(input(colored("Enter the number of questions: ", "cyan")))
 random_questions = get_random_question(questions, total_questions)
 correct = 0
 start_time = time.time()
@@ -42,7 +46,7 @@ for question in random_questions:
     
     
 completed_time = time.time() - start_time
-print("Sumary:")
+cprint("Sumary:", "light_green")
 print("Total Questions: ", total_questions)
 print("Correct Answers: ", correct)
 print("Score: ", str(round((correct / total_questions) * 100, 2)) + "%")
