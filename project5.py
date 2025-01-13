@@ -3,6 +3,22 @@ import json
 import time
 from termcolor import colored, cprint
 
+user_list = [
+    
+]
+
+class User:
+    def __init__(self, name, rate):
+        self.name = name
+        self.rate = rate
+        
+def create_user():
+    userName = input("Enter your name: ")
+    userRate = 0
+    u1 = User(userName, userRate)
+    user_list.append(u1)
+    
+
 def load_question():
     with open('questions.json', 'r') as f:
         questions = json.load(f)["questions"]
@@ -31,7 +47,8 @@ def ask_question(question):
     return correct
 
 
-#START    
+#START
+create_user()
 questions = load_question()
 total_questions = int(input(colored("Enter the number of questions: ", "cyan")))
 random_questions = get_random_question(questions, total_questions)
